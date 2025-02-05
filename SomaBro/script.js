@@ -1,13 +1,20 @@
-let content = document.querySelectorAll('.sub-content')
-console.log(content)
+document.addEventListener("DOMContentLoaded", function () {
+  let content = document.querySelectorAll(".sub-content");
 
-content[0].classList.add('large')
+  //   content[0].classList.add("large");
 
-let doneButton = document.querySelectorAll('.sub-content')
-console.log(doneButton)
+  let doneButton = document.querySelectorAll(".done-button");
 
-content.forEach((cont, i) => {
-    doneButton[i].addEventListener("click", function() {
-        content[i].add('large')
-    })
-})
+  console.log(doneButton[1]);
+  console.log(content[1]);
+
+  //   doneButton[1].addEventListener("click", function () {
+  //     console.log("Button clicked");
+  //     content[1].classList.add("large");
+  //   });
+  content.forEach((cont, i) => {
+    doneButton[i].addEventListener("click", function () {
+      cont.classList.add("large");
+    });
+  });
+});
