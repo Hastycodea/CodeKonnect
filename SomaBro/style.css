@@ -18,6 +18,7 @@
 }
 .large {
     color: red;
+    text-decoration: line-through;
 }
 li {
   list-style: none;
