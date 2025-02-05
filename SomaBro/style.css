@@ -16,6 +16,10 @@
 .nav a{
   color: white;
 }
+.large {
+    color: red;
+    font-size: 24px;
+}
 li {
   list-style: none;
 }
