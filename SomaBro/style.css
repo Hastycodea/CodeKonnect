@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+}
+.nav {
+  display: flex;
+  justify-content: center;
+  background-color: blue;
+  padding: 20px 0;
+  width: 75%;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+.nav li {
+  margin: 0 10px;
+}
+.nav a{
+  color: white;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  font-size: 18px;
+}
+.nav a:hover {
+  color: black;
+  animation-duration: 300ms;
+}
+.logo {
+  font-weight: bold;
+}
