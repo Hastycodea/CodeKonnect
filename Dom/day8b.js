@@ -70,6 +70,6 @@ for(user in users) {
     }
 }
 console.log(result)
-
+// to be reviewed
 console.log(users["Alex"].email)
 console.log(users.Alex.email)
